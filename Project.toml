@@ -1,0 +1,18 @@
+name = "JLArrays"
+uuid = "d7574ea2-b4e4-4adc-890b-92a3a80d83e3"
+authors = ["Jacques David <jacques.david@free.fr> and contributors"]
+version = "0.1.0"
+
+[deps]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
